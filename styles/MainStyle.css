@@ -1,6 +1,6 @@
 body {
-  background-color: #1c5c99;
-  background-image: radial-gradient(#2256f2, #81aae3);
+  background-color: #c9720e;
+  background-image: radial-gradient(#915006, #b07b3e);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100%, 100%;
@@ -8,49 +8,54 @@ body {
 }
 
 .navbar {
-  border: 3px solid #3b63db99;
-  background-color: #3b63db99;
+  border: 3px solid #94510499;
+  background-color: #c9720e99;
   border-style: outset;
   align-items: center;
   border-radius: 16px;
-  position: sticky;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
   padding-top: 18px;
   padding-bottom: 18px;
   overflow: hidden;
 }
 
 .navbar a {
-  border: 3px solid #5480f7;
+  border: 3px solid #945104;
   text-align: center;
   border-radius: 16px;
   padding: 16px;
+  text-decoration: none;
   color: white;
   font-size: 32px;
-  position: sticky;
   user-select: none;
 }
 .navbar a:hover {
-  border: 3px solid #5480f7;
-  background-color: #3b63dbff;
+  border: 3px solid #753f01;
+  background-color: #8a4c0699;
   font-size: 32px;
+  color: #ccc
 }
 
 .container {
-  border: 3px solid #3b63db99;
-  background-color: #3b63db99;
+  border: 3px solid #94510499;
+  background-color: #c9720e99;
   border-style: outset;
   align-items: center;
   border-radius: 16px;
   overflow: hidden;
   max-width: 2048px;
   margin: auto;
-  margin-top: 8px;
+  margin-top: 96px;
 }
 
 h1 {
   font-family: 'Audiowide';
   font-size: 60px;
   letter-spacing: 3px;
-  color: #fff;
-  text-shadow: -3px 0px #00ff00, 3px 0px #ff0000;
+  color: #00fa;
+  text-shadow: -3px -3px #0f0c, 3px 3px #f00c;
 }
