@@ -1,10 +1,10 @@
-const canvas = createCanvas(1408 , 840);
+const canvas = createCanvas(1920 , 1088);
 const gridSize = 64;
 
 var currentDir = [1, 0];
 var currentSize = 4;
-var coveredTiles = [vectorToIndex(4, 6)];
-var applePosition = vectorToIndex(16, 6);
+var coveredTiles = [vectorToIndex(5, 8)];
+var applePosition = vectorToIndex(21, 8);
 
 function createCanvas(width, height) {
     var c = document.createElement('canvas');
