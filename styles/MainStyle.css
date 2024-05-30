@@ -1,10 +1,9 @@
 body {
-  background-color: #1c5c99;
-  background-image: radial-gradient(#2256f2, #81aae3);
+  background-image: radial-gradient(#0e2038, #213a5c);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100%, 100%;
-  text-align: center;
+  text-align: left;
 }
 
 .navbar {
@@ -57,5 +56,6 @@ h1 {
   font-size: 60px;
   letter-spacing: 3px;
   color: #fff;
-  text-shadow: -3px 0px #00ff00, 3px 0px #ff0000;
+/* text-shadow: -3px 0px #00ff00, 3px 0px #ff0000;*/
+  text-align: left;
 }
